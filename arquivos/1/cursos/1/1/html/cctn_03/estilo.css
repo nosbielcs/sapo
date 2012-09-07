@@ -1,0 +1,52 @@
+body {/*background:#faee26*/background-image:url(images/fundo.gif)}
+p,font,ul { margin-bottom: 0px; font-family: verdana,helvetica,arial; font-size: 8pt; color:#990066}
+
+.azul { margin-bottom: 0px; font-family: arial; font-size: 12px; color:#006699}
+.vermelho { margin-bottom: 0px; font-family: arial; font-size: 12px; color:#ff0000}
+.verde { margin-bottom: 0px; font-family: arial; font-size: 12px; color:#006600}
+.amarelo { margin-bottom: 0px; font-family: arial; font-size: 12px; color:#000000}
+.branco { margin-bottom: 0px; font-family: arial; font-size: 12px; color:#ffffff}
+
+.tabela_azul {text-align: justify; font-size:9pt; font-family:verdana; color:#000000; border: dotted 1px #000099; padding: 2px}
+.tabela_vermelha {text-align: justify; font-size:9pt; font-family:verdana; color:#000000; border: dotted 1px #cc0000; padding: 2px}
+.tabela_verde {text-align: justify; font-size:9pt; font-family:verdana; color:#000000; border: dotted 1px #006600; padding: 2px}
+.tabela_amarela {text-align: justify; font-size:9pt; font-family:verdana; color:#000000; border: dotted 1px #ffcc00; padding: 2px}
+.tabela_preta {text-align: justify; font-size:9pt; font-family:verdana; background-color:#EEEEEE; color:#000000; border: dotted 1px #000000; padding: 2px}
+
+.image {}
+.image:hover {filter:alpha(Opacity=70); -moz-opacity : 0.7; opacity:0.7}
+
+a {color: #FF9900;font-family: arial;font-size: 12px;text-decoration: none;font-weight:bold}
+a:hover {color: #666666;font-family: arial;font-size: 12px;text-decoration:underline;font-weight:bold}
+
+#NotTit {
+	FONT: bold 16px Arial,Helvetica,Verdana; COLOR: #333333
+}
+#NotSin {
+	FONT: bold 12px Verdana,Arial,Helvetica; COLOR: #333333
+}
+#NotTxt {
+	FONT: 12px Arial,Helvetica,Verdana; COLOR: #666666; TEXT-ALIGN:justify
+}
+/*#NotAut {
+	FONT: bold 12px Verdana,Arial,Helvetica; COLOR: #333333; TEXT-ALIGN: right
+}
+#NotLeg {
+	FONT: 10px Verdana,Arial,Helvetica; COLOR: #999999
+}
+#Indice {
+	FONT: 11px Verdana,Arial,Helvetica; COLOR: #666666
+}
+#MaisNot {
+	BORDER-TOP: #dddddd 1px solid; MARGIN-TOP: 10px; FONT: 10px Verdana,Arial,Helvetica; WIDTH: 100%; BORDER-BOTTOM: #dddddd 1px solid; POSITION: relative; HEIGHT: 16px; TEXT-ALIGN: right
+}
+#ChnTit {
+	FONT: bold 14px Verdana,Arial,Helvetica; COLOR: #333333
+}
+#ChnSin {
+	FONT: 11px Verdana,Arial,Helvetica; COLOR: #333333
+}
+#SepIdx {
+	FONT: bold 10px Verdana,Arial,Helvetica; COLOR: #333333
+}
+*/

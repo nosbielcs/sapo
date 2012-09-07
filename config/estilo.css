@@ -1,0 +1,121 @@
+/* CSS Document */
+html, body {margin:0; padding:0; background-color:none; color:#000000;}
+
+p {padding: 0;margin-top: 0px;font-family:arial;font-size: 12px}
+
+.item_selecionado {background-color:#FFFF99;}
+.preto {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#000000; text-decoration:none}
+.link_preto { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#000000; text-decoration:underline}
+.preto_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#000000; text-decoration:none}
+.login_simples {font-family: Arial; font-size: 10px; font-weight:none; color:#000000; text-decoration:none}
+.link_login {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#000000; text-decoration:underline}
+
+.roxo {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#7575ff; text-decoration:none}
+.link_roxo { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#7575ff; text-decoration:underline}
+.roxo_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#7575ff; text-decoration:none}
+
+.cinza {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#333333; text-decoration:none}
+.link_cinza { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#333333; text-decoration:underline}
+.link_cinza_visitado { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#666666; text-decoration:underline}
+.cinza_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#333333; text-decoration:none}
+.cinza_borda{border: 1; border-style: solid; color: #cccccc;}
+.cinza_linha_1 {background-color:#CCCCCC;}
+.cinza_linha_2 {background-color:#e8e8e8;}
+
+.laranja {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#ff6600; text-decoration:none}
+.link_laranja { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#ff6600; text-decoration:underline}
+.laranja_linha_1 {background-color:#FFE3B9;}
+.laranja_linha_2 {background-color:#FFECCE;}
+.laranja_linha_3 {background-color:#FFC66F;}
+.laranja_linha_4 {background-color:#FFDFAE;}
+
+.verde {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#006633; text-decoration:none}
+.link_verde { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#006633; text-decoration:underline}
+.verde_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#006633; text-decoration:none}
+.verde_linha_1 {background-color:#99CC66;}
+.verde_linha_2 {background-color:#CFE7B8;}
+.verde_linha_3 {background-color:#6AFFB0;}
+.verde_linha_4 {background-color:#00CC66;}
+
+.vermelho {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#ff0000; text-decoration:none}
+.link_vermelho { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#ff0000; text-decoration:underline}
+.vermelho_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#ff0000; text-decoration:none}
+
+.azul {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#0066cc; text-decoration:none}
+.link_azul { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#0066cc; text-decoration:underline}
+.azul_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#0066cc; text-decoration:none}
+.azul_linha_1 {background-color:#C5D8EB;}
+.azul_linha_2 {background-color:#E2ECF5;}
+
+.marron {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#cc6666; text-decoration:none}
+.link_marron { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#cc6666; text-decoration:underline}
+.marron_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#cc6666; text-decoration:none}
+
+.purpura {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#666699; text-decoration:none}
+.link_purpura { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#666699; text-decoration:underline}
+.purpura_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#666699; text-decoration:none}
+
+.magenta {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#993366; text-decoration:none}
+.link_magenta { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#993366; text-decoration:underline}
+.magenta_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#993366; text-decoration:none}
+.magenta_linha_1 {background-color:#E8BBD1;}
+.magenta_linha_2 {background-color:#F5E2EC;}
+
+.laranja {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#e18700; text-decoration:none}
+.link_laranja { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#e18700; text-decoration:underline}
+.laranja_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#e18700; text-decoration:none}
+.laranja_simples {margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:none; color:#e18700; text-decoration:none}
+
+.calendar {margin-bottom: 0px; font-family: arial; font-size: 10px; font-weight:normal; color:#000000; text-decoration:none}
+.calendar_bold {margin-bottom: 0px; font-family: arial; font-size: 10px; font-weight:bold; color:#000000; text-decoration:none}
+.link_calendar {margin-bottom: 0px; font-family: arial; font-size: 10px; font-weight:bold; color:#000000; text-decoration:underline}
+.form_calendar {font-family:arial;font-size:10pt;color:#000000;background:#FCFFEE;border:1pt;border-style:solid;border-width:1;border-color:#FFFF00}
+
+/*Esta Classe formata o TOLLTIP*/
+.formata {font: 12px arial}
+a.dcontexto{position:relative; font:12px arial; padding:0; color:#039; text-decoration:none; border-bottom:1px dotted #cccccc; cursor:pointer; z-index:24}
+a.dcontexto:hover{background:transparent; z-index:25}
+a.dcontexto span{display: none}
+a.dcontexto:hover span{ display:block; position:absolute; width:50px; top:30px; text-align:center; left:-10; font: 10px arial; padding:2px 2px; border:0px solid #cccccc; background:transparent; color:#000}
+
+/*Esta classe faz efeito alpha nas imagens*/
+.imagem {}
+.imagem:hover {filter:gray; height:1; -moz-opacity : 0.7; opacity:0.7}
+.imagem:visited {}
+.imagem:link {}
+.imagem:active {}
+
+.bp_cor01{font-family: arial; font-size: 12px; color:#0000ff; background-color:#d5eaff}
+.bp_cor02{font-family: arial; font-size: 12px; color:#004080; background-color:#ccccff}
+.bp_cor03{font-family: arial; font-size: 12px; color:#008000; background-color:#d9ffd9}
+.bp_cor04{font-family: arial; font-size: 12px; color:#089079; background-color:#a3faeb}
+.bp_cor05{font-family: arial; font-size: 12px; color:#34a8b8; background-color:#d7eae2}
+.bp_cor06{font-family: arial; font-size: 12px; color:#009966; background-color:#b7d9cb}
+.bp_cor07{font-family: arial; font-size: 12px; color:#800080; background-color:#f4eaff}
+.bp_cor08{font-family: arial; font-size: 12px; color:#8000ff; background-color:#e4caff}
+.bp_cor09{font-family: arial; font-size: 12px; color:#804000; background-color:#ffe0c1}
+.bp_cor10{font-family: arial; font-size: 12px; color:#808000; background-color:#ffffbf}
+.bp_cor11{font-family: arial; font-size: 12px; color:#808080; background-color:#e2e2e2}
+.bp_cor12{font-family: arial; font-size: 12px; color:#8080ff; background-color:#e6e6ff}
+.bp_cor13{font-family: arial; font-size: 12px; color:#aa3953; background-color:#eabfca}
+.bp_cor14{font-family: arial; font-size: 12px; color:#ec15cc; background-color:#ffccff}
+.bp_cor15{font-family: arial; font-size: 12px; color:#ec5873; background-color:#facfd7}
+.bp_cor16{font-family: arial; font-size: 12px; color:#ff0000; background-color:#ffaeae}
+.bp_cor17{font-family: arial; font-size: 12px; color:#ff8000; background-color:#ffcc99}
+.bp_cor18{font-family: arial; font-size: 12px; color:#ff8080; background-color:#ffeaea}
+
+.campos { margin-bottom: 0px; font-family: arial; font-size: 12px; font-weight:bold; color:#000000; text-decoration:none}
+
+.quote  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
+	     background-color: #E8E8E8; border: #D1D7DC; border-style: solid;
+	     border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px} 
+
+.node, .nodeAberto, .nodeFechado{display: block; padding: 1px; padding-top: 0;}
+.node{padding-left: 20px;}
+.nodeFechado div{display: none;}
+.nodeAberto a, .nodeFechado a{font-weight: bold;color: #000;}
+.node a{font-weight:normal;color:#333;}
+.nodeAtivo{background-color:#FFCC66;padding:1px;border:1px solid #999;}
+.linkAbreFechaNode{display:block;float:left;margin:2px 7px 0 0;width:9px;height:9px;cursor:default;}
+.nodeAberto .linkAbreFechaNode{background:url(nodeclose.jpg) no-repeat;}
+.nodeFechado .linkAbreFechaNode{background:url(node.jpg) no-repeat;}

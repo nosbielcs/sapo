@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:0;
+}
+body{
+	font-family:Verdana;
+	font-size:11px;
+	background-color:#f1f1f1;
+}
+#mensagemCarregando{
+	display:block;
+	padding:15px;
+	font-weight:bold;
+	font-size:12px;
+}
+#menuConteudos{
+	display:none;
+	padding:5px 0;
+}
+#menuConteudos a{
+	font-family:Verdana;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+}
+.node a:hover{
+	background-color:#ccc;
+	padding:1px;
+	border:1px solid #666;
+}
+#menuConteudos div{
+	clear:left;
+	margin-left:20px;
+}
+.node, .nodeAberto, .nodeFechado{
+	display:block;
+	padding:1px;
+	padding-top:0;
+}
+.node{
+	padding-left:20px;
+}
+.nodeFechado div{
+	display:none;
+}
+.nodeAberto a, .nodeFechado a{
+	font-weight:bold;
+	color:#000;
+}
+.node a{
+	font-weight:normal;
+	color:#333;
+}
+.nodeAtivo{
+	background-color:#FFCC66;
+	padding:1px;
+	border:1px solid #999;
+}
+.linkAbreFechaNode{
+	display:block;
+	float:left;
+	margin:2px 7px 0 0;
+	width:9px;
+	height:9px;
+	cursor:default;
+}
+.nodeAberto .linkAbreFechaNode{
+	background:url(nodeclose.jpg) no-repeat;
+}
+.nodeFechado .linkAbreFechaNode{
+	background:url(node.jpg) no-repeat;
+}
+.avisoCarregandoTreeview{
+	display:block;
+	height:26px;
+	background:url(loading.gif) no-repeat 0px 14px;
+	color:#f66;
+	font-weight:bold;
+}

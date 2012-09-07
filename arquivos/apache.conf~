@@ -1,0 +1,504 @@
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_01/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_01/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Contedo cctn_01"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/2/2/html/cctn_01/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/2/2/html/cctn_01/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do cctn_01"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EAD_na_enfermagem_relato_de_experiencia/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EAD_na_enfermagem_relato_de_experiencia/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EAD na enfermagem relato de experiencia.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_4/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_4/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE 4.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_E_PAULO_FREIRE/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_E_PAULO_FREIRE/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE E PAULO FREIRE.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_E_PROBLEMATIZA��O/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_E_PROBLEMATIZA��O/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE E PROBLEMATIZA��O.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_EDUCA��O_POPULAR_2/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_EDUCA��O_POPULAR_2/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE EDUCA��O POPULAR 2.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_EDUCA��O_POPULAR/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE_EDUCA��O_POPULAR/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE EDUCA��O POPULAR.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/EDUCA��O_EM_SAUDE/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SAUDE.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/Palestra_Celso_Antunes/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/Palestra_Celso_Antunes/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Palestra_Celso_Antunes.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/Saber,_Agir_e_Educar_(Paulo_Freire)/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/pdf/Saber,_Agir_e_Educar_(Paulo_Freire)/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Saber, Agir e Educar (Paulo Freire).pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/CONSTRU��O_DO_CONHECIMENTO/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/CONSTRU��O_DO_CONHECIMENTO/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do CONSTRU��O DO CONHECIMENTO.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Dicas_de_portugu�s/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Dicas_de_portugu�s/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Dicas de portugu�s.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Educa��o_Continuada_E_O_SUCESSO_PROFISSIONAL/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Educa��o_Continuada_E_O_SUCESSO_PROFISSIONAL/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Educa��o Continuada E O SUCESSO PROFISSIONAL.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Educa��o_Continuada/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/Educa��o_Continuada/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Educa��o Continuada.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/EDUCA��O_EM_SA�DE_MS_t�cnicas_grupo/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/EDUCA��O_EM_SA�DE_MS_t�cnicas_grupo/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EDUCA��O EM SA�DE MS t�cnicas grupo.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/QUEMSOUEU_OEDUCADOR.DOC/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/QUEMSOUEU_OEDUCADOR.DOC/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do QUEMSOUEU_OEDUCADOR.DOC"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/RELA��ES_HUMANAS_NO_PROCESSO_EDUCATIVO/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/RELA��ES_HUMANAS_NO_PROCESSO_EDUCATIVO/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do RELA��ES HUMANAS NO PROCESSO EDUCATIVO.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_02/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_02/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do cctn_02"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/2/2/pdf/mat_didatic/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/2/2/pdf/mat_didatic/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do mat_didatic.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/2/2/pdf/EAD_na_enfermagem/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/2/2/pdf/EAD_na_enfermagem/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do EAD_na_enfermagem.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/2/2/doc/O_mais_moderno_Teste_do_Pezinho/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/2/2/doc/O_mais_moderno_Teste_do_Pezinho/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do O mais moderno Teste do Pezinho.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_03/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_03/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do cctn_03"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_03/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_03/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do cctn_03"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_1_modulo_3/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_1_modulo_3/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do complementar_1_modulo_3.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_2_modulo_3/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_2_modulo_3/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do complementar_2_modulo_3.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_3_modulo_3/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_3_modulo_3/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do complementar_3_modulo_3.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_4_modulo_3/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_4_modulo_3/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do complementar_4_modulo_3.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_5_modulo_3/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/complementar_5_modulo_3/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do complementar_5_modulo_3.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_04/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/1/1/html/cctn_04/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do cctn_04"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/1/1/doc/enated_book_AVA_cleibson/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapobeta/arquivos/1/cursos/1/1/doc/enated_book_AVA_cleibson/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do enated_book_AVA_cleibson.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/doc/Apostila_HTML_1/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/doc/Apostila_HTML_1/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Apostila HTML 1.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/pdf/Apostila_HTML_2/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/pdf/Apostila_HTML_2/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Apostila HTML 2.pdf"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/html/Como_criar_sua_HomePage/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapobeta/arquivos/3/cursos/3/4/html/Como_criar_sua_HomePage/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Como criar sua HomePage"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/3/cursos/3/4/doc/O_mais_moderno_Teste_do_Pezinho/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/3/cursos/3/4/doc/O_mais_moderno_Teste_do_Pezinho/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do O mais moderno Teste do Pezinho.doc"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
+
+<Directory "/srv/www/htdocs/sapo/arquivos/1/cursos/11/7/ppt/Relat�rio_2006/">
+Options Indexes FollowSymLinks Includes MultiViews
+AllowOverride AuthConfig
+Order allow,deny
+Allow from all
+AuthUserFile /srv/www/htdocs/sapo/arquivos/1/cursos/11/7/ppt/Relat�rio_2006/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acesso Restrito ao Conte�do Relat�rio 2006.ppt"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+</Directory>
